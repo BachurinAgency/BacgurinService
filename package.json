@@ -1,5 +1,5 @@
 {
-  "name": "bachurinservice",
+  "name": "optimizedhtml",
   "version": "4.0.0",
   "description": "OptimizedHTML 4 - Start HTML Template",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "author": "WebDesign Master",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.24.7",
+    "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-clean-css": "^3.10.0",
@@ -17,17 +17,8 @@
     "gulp-notify": "^3.2.0",
     "gulp-rename": "^1.4.0",
     "gulp-rsync": "0.0.8",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.1",
     "gulp-util": "^3.0.8"
-  },
-  "dependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BachurinAgency/BachurinService.git"
-  },
-  "bugs": {
-    "url": "https://github.com/BachurinAgency/BachurinService/issues"
-  },
-  "homepage": "https://github.com/BachurinAgency/BachurinService#readme"
+  }
 }
