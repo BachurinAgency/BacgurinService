@@ -20,7 +20,7 @@ gulp.task('browser-sync', function() {
 		notify: false,
 		// open: false,
 		// online: false, // Work Offline Without Internet Connection
-		//tunnel: true, tunnel: "bachurinservise", // Demonstration page: http://bachurinservice.localtunnel.me
+		tunnel: true, tunnel: "bachurinservise", // Demonstration page: http://bachurinservice.localtunnel.me
 	})
 });
 
@@ -37,6 +37,7 @@ gulp.task('styles', function() {
 gulp.task('js', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
+		'app/libs/jquery/dist/bootstrap.min.js',
 		'app/js/common.js', // Always at the end
 		])
 	.pipe(concat('scripts.min.js'))
