@@ -33,7 +33,7 @@
 						
 					</div>
 					<div class="col-3 col-sm-6 menu-right">
-						<i class="icon icon-menu fas fa-bars " ></i>
+						<i class="icon icon-menu fas fa-bars" data-toggle="modal" data-target="#modalmenu" onclick="" ></i>
 					</div>
 				</div>
 			</div>	
@@ -45,39 +45,37 @@
 						<div class="col text-center">
 							<h1 class="h1">Сломался iPhone ?</h1>
 							<p class="h3">Курьер бесплатно отвезет его</p>
-							<button type="button" class="btnstart">В ремонт !</button>
-							!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+							<button type="button" class="btnstart" data-toggle="modal" data-target="#modalform" onclick="">В ремонт !</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+<!-- Модальные окна -->
+<div class="animated fadeIn modal" id="modalmenu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="background: red;">
+	
+  </div>
 
+  <div class="modal fade" id="modalform" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+		  form
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		  <button type="button" class="btn btn-primary">Save changes</button>
+		</div>
+	  </div>
+	</div>
+  </div>
 	<script src="js/scripts.min.js"></script>
 
 </body>
